@@ -1,0 +1,189 @@
+@media screen and (max-width: 1660px) {
+  .global_style_b {
+    padding: 32px;
+    overflow: hidden;
+  }
+  .global_style_b::before {
+    content: none;
+  }
+  .global_style_b::after {
+    content: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .global_style_a {
+    padding: 32px;
+    overflow: hidden;
+  }
+  .global_style_a .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+  }
+  .global_style_a .logo svg {
+    height: 20px;
+  }
+  .global_style_a .content_center {
+    max-width: 600px;
+    gap: 24px;
+  }
+  .global_style_a .content_center h1 {
+    font-size: 90px;
+  }
+  .global_style_a .content_center p {
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+  .global_style_a .content_center .btn_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 16px;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+  }
+  .global_style_a .link-style-a {
+    height: 52px;
+    padding: 0px 20px;
+    gap: 12px;
+    font-size: 16px;
+  }
+  .global_style_a .link-style-a svg {
+    height: 20px;
+    width: 20px;
+  }
+  .global_style_b {
+    padding: 32px;
+    overflow: hidden;
+  }
+  .global_style_b .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 24px;
+  }
+  .global_style_b .logo svg {
+    height: 20px;
+  }
+  .global_style_b .content_center {
+    max-width: 600px;
+    gap: 24px;
+  }
+  .global_style_b .content_center h1 {
+    font-size: 90px;
+  }
+  .global_style_b .content_center p {
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+  .global_style_b .content_center .btn_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 16px;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+  }
+  .global_style_b .link-style-a {
+    height: 52px;
+    padding: 0px 20px;
+    gap: 12px;
+    font-size: 16px;
+  }
+  .global_style_b .link-style-a svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .global_style_a {
+    padding: 20px;
+  }
+  .global_style_a .logo {
+    top: 24px;
+    left: 20px;
+  }
+  .global_style_a .logo svg {
+    height: 16px;
+  }
+  .global_style_a .content_center {
+    max-width: 600px;
+    gap: 16px;
+  }
+  .global_style_a .content_center h1 {
+    font-size: 40px;
+  }
+  .global_style_a .content_center p {
+    font-size: 13px;
+    padding-bottom: 24px;
+  }
+  .global_style_a .content_center .btn_row {
+    gap: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .global_style_a .link-style-a {
+    height: 48px;
+    padding: 0px 20px;
+    gap: 12px;
+    font-size: 13px;
+  }
+  .global_style_a .link-style-a svg {
+    height: 20px;
+    width: 20px;
+  }
+  .global_style_b {
+    padding: 20px;
+  }
+  .global_style_b .logo {
+    top: 24px;
+  }
+  .global_style_b .logo svg {
+    height: 16px;
+  }
+  .global_style_b .content_center {
+    max-width: 600px;
+    gap: 16px;
+  }
+  .global_style_b .content_center h1 {
+    font-size: 40px;
+  }
+  .global_style_b .content_center p {
+    font-size: 13px;
+    padding-bottom: 24px;
+  }
+  .global_style_b .content_center .btn_row {
+    gap: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .global_style_b .link-style-a {
+    height: 48px;
+    padding: 0px 20px;
+    gap: 12px;
+    font-size: 13px;
+  }
+  .global_style_b .link-style-a svg {
+    height: 20px;
+    width: 20px;
+  }
+}
